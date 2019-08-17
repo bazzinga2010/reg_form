@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form id="frm1" action="/action_page.php">
+  First name: <input type="text" name="fname" value="Donald"><br>
+  Last name: <input type="text" name="lname" value="Duck"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>Click "Try it" to display the value of each element in the form.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("frm1");
+  var text = "";
+  var i;
+  for (i = 0; i < x.length ;i++) {
+    text += x.elements[i].value + "<br>";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
+<div>
+	 <?php
+	 $con=mysqli_connect('localhost','root');
+	 mysqli_select_db($con,'mmmdb');
+	 $q="select * from db2 ";
+	 $result=mysqli_query($con,$q);
+	 $num=mysqli_num_rows($result);
+	 mysqli_close($con);
+	 ?>
+	 <p>
+	 <?php
+	 while($row=mysqli_fetch_array($result)){
+		 echo "First Name:{$row['fname']} <br>".
+		       "Last Name :{$row['lname']} <br>";
+	 };
+	 
+	 
+	 ?>
+	 
+	 
+	 
+	 </div>
+project import;
+echo "First Nmae: $fname ";
+echo "<br>";
+
+echo "Last Name:$lname";
+echo "<br>";
+echo "Email:$email";
+echo "<br>";
+echo "High school roll no.:$highroll";
+echo "<br>";
+echo "Date of Birth:$dob";

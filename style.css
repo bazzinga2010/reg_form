@@ -1,0 +1,163 @@
+
+.Hheader{
+    font-size: 50;
+    background-color: #ff0066;
+    padding: 2px 5px 2px 5px;
+
+}
+.menu{
+    font-size: 25;
+   
+    background: darkseagreen;
+    padding: 6px 0px 6px 40px
+}
+#proces{
+	text-align:center;
+}
+#h1 {
+    font-family: cursive;
+    text-align: center;
+}
+body {
+  width: 100%;
+  float: left;
+}
+
+
+.class1 {
+  width: 25%;
+  float: left;
+  height: 100px;
+  }
+  .class2{
+	  
+  width: 70%;
+  float: left;
+  height: 100px;
+  }
+
+
+p {
+  padding-top: 25px;
+  text-align: center;
+}
+#form {
+    text-align: center;
+}
+
+ .homeheader {
+    background-color: rgba(0, 0, 0, 0.678);
+    text-decoration-color: white;
+    color: white;
+    text-align: center;
+}
+ .homeheader img {
+    float: left;
+}
+
+
+.homebody .homemenu ul li {
+    list-style: none;
+    background-color: red;
+    border: 1px solid white;
+    width: 200px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    float: left;
+    position:relative;
+    border-radius: 8px;
+}
+.homebody .homemenu ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+
+}
+.homebody .homemenu ul ul {
+    
+    display: none;
+    
+}
+.homebody .homemenu ul li:hover > ul {
+    display: block;
+    border-radius: 8px;
+}
+h3 {
+	color:red;
+}
+h5{
+	color:red;
+}
+/*** footer cascading  ***/
+
+footer {
+    padding: 6px 40px 6px 40px;
+    background: #d6d6d6;
+    font-family: "Lucida Sans Unicode";
+    text-decoration: right;
+}
+
+footer a{
+
+    text-decoration: none;
+    color: #262626;
+}
+
+.seperator {
+
+    color: #ffffff;
+    font-size: 11px;
+}
+/***** Admission page cascading    ***/
+.class3{
+	width:60%;
+	float:left;
+	height:100%;
+}
+
+/*** proces cascading ****/
+.form1 {
+	text-align:center;
+}
+/*** contact page cascading ****/
+#contact #form {
+
+    widows: 500px;
+    box-shadow: 0px 9px 13px 5px; 
+    border-radius: 5px;
+    
+    padding: 10px 10px 10px 10px ;
+    margin: 0 auto;
+
+}
+
+#contact .page-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact #form input {
+    width: 100%;
+    border-radius: 5px;
+    height: 20px;
+    background: #d6d6d6;
+
+}
+
+#contact #form #message{
+    width: 100%;
+
+}
+
+#contact #form #submit {
+    height: 30px;
+    background: rgb(59, 118, 135)
+}
+
+/****  view page cascading  ******/
+
+
+
+
+
